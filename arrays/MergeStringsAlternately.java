@@ -13,6 +13,7 @@ class MergeStringsAlternately {
         }
 
         // Append remaining characters of word1
+        
         while (i < word1.length()) {
             result.append(word1.charAt(i));
             i++;
